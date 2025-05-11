@@ -36,17 +36,10 @@ body {
 }
 
 .logo {
-  width: 300px;
-  height: 100px;
+  width: 500px;
+  height: 200px;
   object-fit: contain;
   margin-bottom: 1rem;
-}
-
-.firma {
-  font-family: "Times New Roman", Times, serif;
-  color: orange;
-  font-size: 16px; 
-  margin-top: 10px;  
 }
 
 .derecha {
@@ -68,7 +61,7 @@ body {
 .descripcion {
   margin: 1rem 0;
   line-height: 1.5;
-  color: #444;
+  color: #021379;
 }
 
 .contacto .dato {
@@ -77,6 +70,21 @@ body {
   margin: 0.5rem 0;
   font-size: 0.95rem;
 }
+
+.correo-enlace {
+  display: block;
+  text-decoration: none;
+  margin: 2px 0;
+}
+
+
+.icono-operadora {
+  width: 20px;
+  height: 15px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
 
 .icono {
   width: 20px;

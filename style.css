@@ -17,12 +17,13 @@ body {
 
 .linea-superior {
   height: 12px;
-  background:  #00a9cc;
+  background: #00a9cc;
   width: 100%;
 }
+
 .linea-superior2 {
   height: 11px;
-  background:  #018eb2;
+  background: #018eb2;
   width: 100%;
 }
 
@@ -67,7 +68,7 @@ body {
   font-size: 1.7rem;
   font-weight: bold;
   margin: 0.2rem 0;
-  color : #01188d;
+  color: #01188d;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -118,11 +119,11 @@ body {
 @media (max-width: 768px) {
 
   .logo {
-  width: 190px;
-  height: 200px;
-  object-fit: contain;
-  margin-bottom: -.5rem;
-}
+    width: 190px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: -.5rem;
+  }
 
   body {
     padding: 2rem 5px;
@@ -133,7 +134,8 @@ body {
     padding: 1.5rem;
   }
 
-  .izquierda, .derecha {
+  .izquierda,
+  .derecha {
     width: 100%;
     text-align: center;
     padding: 0;
@@ -144,12 +146,12 @@ body {
   }
 
   .contacto .dato {
-  display: flex;
-  align-items: center;
-  text-align: justify;
-  margin: 0.5rem 0;
-  font-size: 0.7rem;
-}
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin: 0.5rem 0;
+    font-size: 0.7rem;
+  }
 
 
   .dato {
@@ -161,4 +163,3 @@ body {
     border-bottom-right-radius: 0;
   }
 }
-

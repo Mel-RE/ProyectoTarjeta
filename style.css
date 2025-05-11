@@ -26,8 +26,6 @@ body {
   width: 100%;
 }
 
-
-
 .contenido-card {
   display: flex;
   padding: 2rem;
@@ -118,6 +116,18 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  .logo {
+  width: 190px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: -.5rem;
+}
+
+  body {
+    padding: 2rem 5px;
+  }
+
   .contenido-card {
     flex-direction: column;
     padding: 1.5rem;
@@ -132,6 +142,15 @@ body {
   .derecha {
     padding-bottom: -.2rem;
   }
+
+  .contacto .dato {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin: 0.5rem 0;
+  font-size: 0.7rem;
+}
+
 
   .dato {
     justify-content: center;

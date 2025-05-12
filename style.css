@@ -52,7 +52,7 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 1.3rem;
-  margin-top: 0px;
+  margin-top: -29px;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -132,7 +132,23 @@ body {
     height: 200px;
     object-fit: contain;
     margin-bottom: -.5rem;
+    margin-top: -2rem;
   }
+
+  .cargo-texto {
+    font-size: 1.2rem;
+    margin-top: -29px;
+  }
+
+  .nombre {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .profesion {
+    font-size: 1.4rem;
+  }
+
 
   body {
     padding: 2rem 5px;
